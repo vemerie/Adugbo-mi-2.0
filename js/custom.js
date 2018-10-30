@@ -24,12 +24,12 @@ $(document).ready(function(){
     // close button for dashboard
     $('#close-icon').click(function() {
 		$('#side-dashboard').fadeOut();
-		$('#more').fadeIn();
+		$('#arrow').fadeIn();
       });
 
-	  $('#more').click(function() {
+	  $('#arrow').click(function() {
 		$('#side-dashboard').fadeIn();
-		$('#more').css("display","none");
+		$('#arrow').css("display","none");
       });
 
 
